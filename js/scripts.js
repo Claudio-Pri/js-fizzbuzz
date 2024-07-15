@@ -1,29 +1,19 @@
 
+for (let i = 1; i <= 100; i++) {
 
-document.writeln('Hello world');
+    if (i % 3 == 0 && i % 5 == 0) {
+        console.log('FizzBuzz');
 
+    }
+    else if (i % 5 == 0) {
+        console.log('Buzz');
 
+    }
+    if (i % 3 == 0) {
+        console.log('Fizz');
 
-// fa uscire un pop-up che blocca l'esecuzione della pagina
-alert('Hello world!');
-
-
-
-//prende un elemento dal documento e lo trasforma--js è case sensitive
-document.getElementById('mio_id').innerHTML = 'Hello World 4!';
-
-
-
-//come conservare un dato
-/* 
-variabili: contenitori con un nome e una proprietà/ dato
-i dati della variabile vengono eliminati alla fine dell'esecuzione 
-*/
-
-//Dichiarazione di una variabile
-
-const miaVariabile1 = 'ciao raghi';
-let miaVariabile2;
-var miaVariabile3;
-
+    }
+    console.log(i);
+}
+//così non sostituisce i numeri in stampa ma lascritta si posiziona al posto giusto
 
